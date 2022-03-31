@@ -1,0 +1,98 @@
+ body {
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: no-repeat;
+} 
+
+p {
+    margin: 0;
+}
+
+.bottom {
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+}
+
+#myCanvas {
+    background-color: black;
+    
+    height: 95%;
+    border: solid 3px white;
+    border-radius: 20px;
+    
+    cursor: pointer;
+}
+
+#myNav {
+    display: flex;
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+    background-color: lightgoldenrodyellow;
+    border: solid 3px black;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 50px;
+    justify-content: space-around;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    transform: translateY(5px);
+    cursor: pointer;
+}
+
+#white {
+    background-color: white;
+}
+
+#red {
+    background: linear-gradient(rgb(231, 138, 138), red);
+}
+
+#blue {
+    background: linear-gradient(rgb(138, 139, 231), blue);
+}
+
+#yellow {
+    background: linear-gradient(rgb(217, 231, 138), yellow);
+}
+
+#green {
+    background: linear-gradient(rgb(165, 243, 182), green);
+}
+
+#clearCanvas {
+    width: 250px;
+    
+    height: 90px;
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+    background-color: lightgoldenrodyellow;
+}
+
+#saveCanvas {
+    width: 250px;
+    
+    height: 90px;
+    font-family: 'Caveat', cursive;
+    font-size: 45px;
+    background-color: lightgoldenrodyellow;
+}
+
+#eraser {
+    width: 75px;
+}
+
+.commonColor {
+    background: linear-gradient(gray, black);
+    color: white;
+}
+
+.pencilWidthContainer {
+    position: relative;
+    bottom: 13px;
+}
+
+
+

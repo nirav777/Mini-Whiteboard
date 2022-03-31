@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="canvasStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <script src="whiteboard.js" defer></script>
+    <title>Whiteboard</title>
+</head>
+
+<body>
+
+
+    <nav id="myNav">
+        <p>Whiteboard</p>
+
+        <div class="pencilWidthContainer">
+            <button id="eraser" style=" width: 75px">Erase</button>
+            <button id="xs" class="commonColor">2px</button>
+            <button id="small" class="commonColor">5px</button>
+            <button id="medium" class="commonColor">10px</button>
+            <button id="large" class="commonColor">15px</button>
+            <button id="xl" class="commonColor">20px</button>
+        </div>
+        <div class="buttonContainer">
+            <button id="white"></button>
+            <button id="red"></button>
+            <button id="blue"></button>
+            <button id="yellow"></button>
+            <button id="green"></button>
+        </div>
+
+    </nav>
+
+    <div class="bottom">
+
+        <canvas id="myCanvas">
+        </canvas>
+
+        <div class="buttonsSC">
+            <button id="clearCanvas">Clear</button>
+            <button id="saveCanvas">Save</button>
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
